@@ -1,6 +1,6 @@
 {
 	"tasks": {
-		"dev": "deno run --allow-net --allow-read --allow-env=8000 --watch main.tsx --dev",
+		"dev": "deno run --allow-net --allow-read --allow-env --watch main.tsx --dev",
 		"serve": "deno run --allow-net --allow-read --allow-env --no-check main.tsx",
 		"watch": "deno run --allow-net=:8000 --watch ./main.tsx"
 	},
