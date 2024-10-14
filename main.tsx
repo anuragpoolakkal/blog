@@ -1,27 +1,29 @@
-/** @jsx h */
-
-import blog, { ga, redirects, h } from "blog";
+import blog, { ga, redirects } from "https://deno.land/x/blog/blog.tsx";
+import { unocss_opts } from "./unocss.ts";
 
 blog({
-  title: "Anurag",
-  description: "Blog of Anurag Poolakkal",
-  // header: <header>Your custom header</header>,
-  // section: (post: Post) => <section>Your custom section with access to Post props.</section>,
-  // footer: <footer>Your custom footer</footer>,
-  avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
-  avatarClass: "rounded-full",
-  author: "An author",
-
-  // middlewares: [
-
-    // If you want to set up Google Analytics, paste your GA key here.
-    // ga("UA-XXXXXXXX-X"),
-
-    // If you want to provide some redirections, you can specify them here,
-    // pathname specified in a key will redirect to pathname in the value.
-    // redirects({
-    //  "/hello_world.html": "/hello_world",
-    // }),
-
-  // ]
+	author: "Anurag",
+	title: "Anurag",
+	// description: "The blog description.",
+	avatar: "files/circle.svg",
+	avatarClass: "rounded-full",
+	showHeaderOnPostPage: false,
+	links: [
+		{ title: "Email", url: "mailto:anuragrajanp@gmail.com" },
+		{ title: "GitHub", url: "https://github.com/anuragpoolakkal" },
+		// { title: "Twitter", url: "https://twitter.com/denobot" },
+	],
+	lang: "en",
+	// localised format based on https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat
+	dateFormat: (date) => new Intl.DateTimeFormat("en-GB", { dateStyle: "long" }).format(date),
+	middlewares: [
+		ga("UA-XXXXXXXX-X"),
+		redirects({
+			"/foo": "/my_post",
+			// you can skip leading slashes too
+			bar: "my_post2",
+		}),
+	],
+	unocss: unocss_opts, // check https://github.com/unocss/unocss
+	favicon: "files/circle.svg",
 });
