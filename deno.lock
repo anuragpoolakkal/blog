@@ -1,5 +1,8 @@
 {
   "version": "4",
+  "redirects": {
+    "https://deno.land/x/blog/blog.tsx": "https://deno.land/x/blog@0.7.0/blog.tsx"
+  },
   "remote": {
     "https://deno.land/std@0.120.0/async/deadline.ts": "1d6ac7aeaee22f75eb86e4e105d6161118aad7b41ae2dd14f4cfd3bf97472b93",
     "https://deno.land/std@0.120.0/async/debounce.ts": "b2f693e4baa16b62793fd618de6c003b63228db50ecfe3bd51fc5f6dc0bc264b",
