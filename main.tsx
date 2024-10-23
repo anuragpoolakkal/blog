@@ -2,7 +2,7 @@ import blog from "blog"; // { ga, redirects, h }
 // import { unocss_opts } from "./unocss.ts";
 
 blog({
-    author: "Anurag Poolakkal",
+	author: "Anurag Poolakkal",
 	title: "Anurag Poolakkal",
 	// description: "The blog description.",
 	// avatar: "files/circle.svg",
@@ -25,5 +25,6 @@ blog({
 	// 	}),
 	// ],
 	// unocss: unocss_opts, // check https://github.com/unocss/unocss
-	favicon: "files/circle.svg",
+	favicon: "posts/files/commons/circle.png",
+	footer: <footer></footer>,
 });
