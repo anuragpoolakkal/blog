@@ -34,9 +34,3 @@ While Europeans colonised large parts of the world the purpose was sometimes to 
 There were several factors that influenced the type of colony developed by the foreign power. One was population density. The denser the population, the greater the resistance that could be expected. But once defeated, this larger indigenous population offers lucrative opportunities for cheap labour. This resulted in fewer European settlers moving to already densely populated colonies. India under the British rule is an example.
 
 On other side, places that were more sparsely populated offered less resistance to the colonisers and less labour to exploit, so more European colonisers moved to these sparsely populated places. Canada is an example.
-
-## Reversal of fortune
-
-<p align="center">
-    <img src="files/the-dynamics-of-economy-of-nations/reversal-of-fortune.png" alt="Reversal of fortune">
-</p>

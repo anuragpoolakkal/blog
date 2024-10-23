@@ -1,10 +1,10 @@
-import blog from "blog"; // { ga, redirects, h }
+import blog, { h } from "blog"; // { ga, redirects }
 // import { unocss_opts } from "./unocss.ts";
 
 blog({
 	author: "Anurag Poolakkal",
 	title: "Anurag Poolakkal",
-	// description: "The blog description.",
+	description: "Observations and Understandings",
 	// avatar: "files/circle.svg",
 	// avatarClass: "rounded-full",
 	// showHeaderOnPostPage: true,
