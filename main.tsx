@@ -2,12 +2,12 @@ import blog from "blog"; // { ga, redirects, h }
 // import { unocss_opts } from "./unocss.ts";
 
 blog({
-    author: "Anurag",
-	title: "Anurag",
+    author: "Anurag Poolakkal",
+	title: "Anurag Poolakkal",
 	// description: "The blog description.",
 	// avatar: "files/circle.svg",
 	// avatarClass: "rounded-full",
-	showHeaderOnPostPage: true,
+	// showHeaderOnPostPage: true,
 	links: [
 		{ title: "Email", url: "mailto:anuragrajanp@gmail.com" },
 		{ title: "GitHub", url: "https://github.com/anuragpoolakkal" },
