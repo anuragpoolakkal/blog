@@ -26,5 +26,5 @@ blog({
 	// ],
 	// unocss: unocss_opts, // check https://github.com/unocss/unocss
 	favicon: "posts/files/commons/circle.png",
-	footer: <footer></footer>,
+	footer: <footer class="mt-20 pb-16 lt-sm:pb-8 lt-sm:mt-16"></footer>,
 });
